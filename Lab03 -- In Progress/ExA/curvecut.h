@@ -10,18 +10,19 @@
 #ifndef CURVECUT_H
 #define CURVECUT_H
 #include <iostream>
+#include <string.h>
 #include "rectangle.h"
 #include "square.h"
 #include "circle.h"
 #include "shape.h"
 #include "point.h"
-#include <string.h>
+
 
 class CurveCut: public Circle, public Rectangle{
 protected:
     /* no data members */
 public:
-    CurveCut(double x, double y, double radius, double side_a, double side_b, char* name = "Curvecut");
+    CurveCut(double x, double y, double radius, double side_a, double side_b, const char* name = "Curvecut");
     virtual double area() const;
     virtual double perimeter() const;
     virtual void display() const;
