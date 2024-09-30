@@ -1,6 +1,8 @@
-//File: mystring2.h
-// ENSF 480 - Lab 3
-
+/*  mystring2.h
+* lab 3 Exercise B
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Sept 30, 2024
+*/
 
 #ifndef MYSTRING_H
 #define MYSTRING_H
