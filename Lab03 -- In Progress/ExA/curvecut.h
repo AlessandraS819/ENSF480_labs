@@ -24,5 +24,6 @@ public:
     virtual double area() const;
     virtual double perimeter() const;
     virtual void display() const;
+    boolean validate_radius()const;
 };
 
