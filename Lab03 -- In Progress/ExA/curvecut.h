@@ -18,7 +18,7 @@
 class CurveCut: public Circle, Rectangle, Shape 
 {
 protected:
-    /* data */
+    /* no data members */
 public:
     CurveCut(int x, int y, double radius, double side_a, double side_b, char* name = "Curvecut");
     virtual double area() const;
