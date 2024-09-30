@@ -1,8 +1,8 @@
 /*  
  * Point.cpp
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 #include <iostream>
@@ -13,7 +13,7 @@ using namespace std;
 
 int Point::count = 1001;
 
-Point::Point(double xVal, double yVal) : x(xVal), y(yVal) {
+Point::Point(double xVal=0, double yVal=0) : x(xVal), y(yVal) {
     id = count++;
 }
 
@@ -21,6 +21,8 @@ Point::~Point() {}
 
 void Point::setX(double xVal) { x = xVal; }
 void Point::setY(double yVal) { y = yVal; }
+double Point ::getX() const { return x; }
+double Point::getY() const { return y; }
 
 int Point::getId() const { return id; }
 

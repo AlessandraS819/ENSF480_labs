@@ -11,7 +11,7 @@
 #include <cmath> // for using M_PI constant
 using namespace std;
 
-Circle::Circle(int x, int y, double radius, char*s): Shape(x, y, s), radius(radius) {}
+Circle::Circle(double x = 0, double y = 0, double radius, const char* name = "Circle"): Shape(x, y, name), radius(radius) {}
 	
 	
 double Circle::area() const {

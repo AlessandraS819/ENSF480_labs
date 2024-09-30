@@ -1,8 +1,8 @@
 /*  
  * Point.h
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 #ifndef POINT_H
@@ -14,11 +14,11 @@ class Point{
 		static int count;// to track the number of points and auto-increment IDs
 	
 	public:
-		Point(double xVal, double yVal);
+		Point(double xVal=0, double yVal=0);
 		~Point();
 
-		double getX() const { return x; }
-		double getY() const { return y; }
+		double getX() const;
+		double getY() const;
 		void setX(double xVal);
 		void setY(double yVal);
 		
@@ -30,6 +30,7 @@ class Point{
 		
 		static int counter();  // Return count of objects
 	
-}
+};
+#endif
 	
 	

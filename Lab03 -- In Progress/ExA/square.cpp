@@ -1,8 +1,8 @@
 /*  
  * Square.cpp
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 
@@ -15,8 +15,8 @@ using namespace std;
 
 
 // Constructor for Square class
-Square::Square(double side_a, double x, double y, std::string name)
-    : Shape(name.c_str(), x, y), side(side_a) { }  // Correctly initialize base class
+Square::Square( double x, double y,double side_a, const char* name)
+    :Shape(x, y, name), side(side_a) { }  // Correctly initialize base class
 
 // Area calculation
 double Square::area() const {

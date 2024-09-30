@@ -1,8 +1,8 @@
 /*  
  * Shape.h
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 
@@ -12,18 +12,18 @@
 #include "Point.h"
 
 class Shape {
-private:
+protected:
     Point origin; // Assuming origin contains x and y
     char* shapeName;
 
 public:
-    Shape(const char* name, double xVal, double yVal);
+    Shape( double xVal, double yVal, const char* name);
     virtual ~Shape();  // Virtual destructor for polymorphism
 
     const Point& getOrigin() const;
-    const char* getName() const;
+    char* getName() const;
 
-    void move(double dx, double dy);
+    virtual void move(double dx, double dy);
     
     // Add accessors for coordinates
     double getX() const { return origin.getX(); } // Assuming Point has getX()

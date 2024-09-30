@@ -1,14 +1,14 @@
 /*  
  * rectangle.cpp
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 #include "Rectangle.h"
 #include <iostream>
 
-Rectangle::Rectangle(double x, double y, double side_a, double side_b, const std::string& name)
-    : Square(side_a, x, y, name), side_b(side_b){}
+Rectangle::Rectangle(double x=0, double y=0, double side_a=1, double side_b=1, const char* name= "Rectangle")
+    : Square( x, y, side_a, name), side_b(side_b), Shape(x, y, name){}
 
 // Correcting set_side_a to have a void return type
 void Rectangle::set_side_a(double side_a) {
