@@ -18,22 +18,22 @@ void try_to_find(LookupTable& lt, int key);
 void test_Customer();
 
 //Uncomment the following function calls when ready to test template class LookupTable
-//void test_String();
-//void test_integer();
+void test_String();
+void test_integer();
 
 int main()
 {
 
  //create and test a lookup table with an integer key value and Customer datum
- test_Customer();
+  test_Customer();
     
  // Uncomment the following function calls when ready to test template class LookupTable
  // create and test a a lookup table of type <int, String>
- // test_String();
+  test_String();
 
  // Uncomment the following function calls when ready to test template class LookupTable
  // create and test a a lookup table of type <int, int>
- // test_integer();
+  test_integer();
 
   cout<<"\n\nProgram terminated successfully.\n\n";
 
@@ -121,8 +121,6 @@ void test_Customer()
     
   }
 
-/* Uncomment and modify the following funciton when ready to test LookupTable<int,Mystring>
-
 void test_String()
 
   // creating lookuptable for Mystring objects
@@ -185,11 +183,6 @@ void test_String()
     cin.get();
   }
 
-*/
-
-
-/* Uncomment and modify the following funciton when ready to test LookupTable<int,int>
-
 void test_integer()
 
   //creating look table of integers
@@ -247,4 +240,3 @@ void test_integer()
     cout << "***----Finished Lab 4 tests on <int> <int>-----***\n";
     
   }
-*/
