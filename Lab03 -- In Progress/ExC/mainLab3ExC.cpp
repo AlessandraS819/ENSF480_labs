@@ -1,5 +1,8 @@
-// ENSF 480 - Lab 3, Ex C
-// M. Moussavi
+/*  mainLab3ExC.cpp
+* lab 3 Exercise B
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Sept 30, 2024
+*/
 
 #include <iostream>
 #include <assert.h>
