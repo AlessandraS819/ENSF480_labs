@@ -1,5 +1,9 @@
-// LookupTable.h
-// ENSF 480 - Lab 3, Ex C
+/*  lookupTable.h
+* lab 3 Exercise B
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Sept 30, 2024
+*/
+
 
 #ifndef LOOKUPTABLE_H
 #define LOOKUPTABLE_H
