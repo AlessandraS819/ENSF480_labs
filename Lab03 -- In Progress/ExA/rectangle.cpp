@@ -8,7 +8,7 @@
 #include <iostream>
 
 Rectangle::Rectangle(double x, double y, double side_a, double side_b, const std::string& name)
-    : Square(side_a, x, y, name), side_b(side_b) {}
+    : Square(side_a, x, y, name), side_b(side_b){}
 
 // Correcting set_side_a to have a void return type
 void Rectangle::set_side_a(double side_a) {

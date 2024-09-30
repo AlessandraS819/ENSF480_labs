@@ -12,7 +12,7 @@
 #include <string>
 #include "Shape.h"
 
-class Square : public Shape {
+class Square : virtual public Shape {
 protected:
     double side;  // Keep only the side variable
 
