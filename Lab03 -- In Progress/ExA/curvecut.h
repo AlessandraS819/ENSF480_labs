@@ -1,22 +1,23 @@
 /*  
  * curvecut.h
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
 */
 
 // curvecut.h
 
 #ifndef CURVECUT_H
 #define CURVECUT_H
-
+#include <iostream>
 #include "rectangle.h"
+#include "square.h"
 #include "circle.h"
 #include "shape.h"
+#include "point.h"
 #include <string.h>
 
-class CurveCut: public Circle, Rectangle, Shape 
-{
+class CurveCut: public Circle, Rectangle, Shape {
 protected:
     /* no data members */
 public:

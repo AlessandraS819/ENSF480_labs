@@ -1,11 +1,12 @@
 #include <iostream>
 /*  
  * curvecut.cpp
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 #include <string>
+#include <iostream>
 #include "shape.h"
 #include "circle.h"
 #include "rectangle.h"

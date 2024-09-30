@@ -1,17 +1,10 @@
-/*  
- * Square.h
- * lab 2 Exercie B
- * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
- */
-
 
 #include <iostream>
 /*  
  * circle.cpp
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 #include <string>
 #include "circle.h"

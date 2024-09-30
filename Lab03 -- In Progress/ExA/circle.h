@@ -1,15 +1,16 @@
 /*  
  * circle.h
- * lab 2 Exercie B
+ * lab 1 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
 */
 
-// Rectangle.h
 #ifndef CIRCLE_H
 #define CIRCLE_H
 
+#include <iostream>
 #include "shape.h"
+#include "point.h"
 
 class Circle : virtual public Shape {
 protected:
