@@ -1,6 +1,8 @@
-//  mystring2.cpp
-// ENSF 480 - Lab 3
-// M. Moussavi
+/*  mystring2.cpp
+* lab 3 Exercise B
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Sept 30, 2024
+*/
 #include "mystring2.h"
 #include <string.h>
 #include <iostream>
