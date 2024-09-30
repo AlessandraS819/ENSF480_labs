@@ -1,10 +1,10 @@
-#include <iostream>
 /*  
  * curvecut.cpp
  * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
  * Submission Date: Sept 30, 2024
  */
+#include <iostream>
 #include <string>
 #include <iostream>
 #include "shape.h"

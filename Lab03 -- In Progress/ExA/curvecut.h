@@ -5,8 +5,6 @@
  * Submission Date: Sept 30, 2024
 */
 
-// curvecut.h
-
 #ifndef CURVECUT_H
 #define CURVECUT_H
 #include <iostream>
