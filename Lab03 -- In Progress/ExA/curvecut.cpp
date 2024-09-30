@@ -16,7 +16,7 @@
 
 using namespace std;
 
-CurveCut::CurveCut(double x, double y, double radius, double side_a, double side_b, char* name = "Curvecut"): 
+CurveCut::CurveCut(double x, double y, double radius, double side_a, double side_b, const char* name = "Curvecut"): 
 Circle(x, y, radius, name), Rectangle(x, y, side_a, side_b, name), Shape(x, y,name) {;}
 
 bool CurveCut:: validate_radius()const{
