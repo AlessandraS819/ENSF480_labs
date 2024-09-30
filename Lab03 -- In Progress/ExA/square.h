@@ -1,8 +1,8 @@
 /*  
  * Square.h
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 #ifndef SQUARE_H
@@ -17,7 +17,7 @@ protected:
     double side;  // Keep only the side variable
 
 public:
-    Square(double side_a, double x, double y, std::string name);
+    Square(double x =0, double y=0, double side_a=1, const char* name="Square");
     
     // Virtual methods that Rectangle will override
     virtual double area() const;

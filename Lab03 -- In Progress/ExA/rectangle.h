@@ -1,8 +1,8 @@
 /*  
  * rectangle.h
- * lab 2 Exercie B
+ * lab 3 Exercie A
  * Completed by: Alessandra Schiavi and Muhammed Umar Khan
- * Submission Date: Sept 23, 2024
+ * Submission Date: Sept 30, 2024
  */
 
 // Rectangle.h
@@ -16,7 +16,7 @@ protected:
     double side_b;
 
 public:
-    Rectangle(double x = 0, double y = 0, double side_a = 1, double side_b = 1, const std::string& name = "Rectangle");
+    Rectangle(double x = 0, double y = 0, double side_a = 1, double side_b = 1, const char* name = "Rectangle");
     void set_side_a(double side_a);  // Should return void
     void set_side_b(double side_b);
     double get_side_a() const;

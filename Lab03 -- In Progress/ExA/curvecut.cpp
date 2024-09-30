@@ -6,17 +6,20 @@
  * Submission Date: Sept 30, 2024
  */
 #include <string>
+#include <cmath>
 #include <iostream>
 #include "shape.h"
+#include "curvecut.h"
 #include "circle.h"
 #include "rectangle.h"
 #include "point.h"
-#include <cmath>
-using namespace std;
-CurveCut :: CurveCut(int x, int y, double radius, double side_a, double side_b, char* name = "Curvecut"): 
-Circle(x, y, radius, name), Rectangle(x, y, side_a, side_b, name), Shape(x, y,name) {}
 
-boolean CurveCut:: validate_radius()const{
+using namespace std;
+
+CurveCut::CurveCut(double x, double y, double radius, double side_a, double side_b, char* name = "Curvecut"): 
+Circle(x, y, radius, name), Rectangle(x, y, side_a, side_b, name), Shape(x, y,name) {;}
+
+bool CurveCut:: validate_radius()const{
     if (radius > side_a || radius > side_b){
         cout <<"radius is not valid. It is bigger than the width and lenght of the rectangle"<<endl;
         exit(1);
@@ -40,7 +43,7 @@ virtual double CurveCut :: perimeter()const{
     
 }
 
-virtual CurveCut::void display() const{
+virtual void CurveCut::display() const{
     if(validate_radius()){
         std::cout << "CurveCut Name: " << getName() << std::endl;  // Access 'name' via getter
         std::cout << "X-coordinate: " << getOrigin().getX() << std::endl; // Access 'x' via Point

@@ -17,7 +17,7 @@ protected:
     double radius;
 
 public:
-    Circle(double x = 0, double y = 0, double radius, const std::string& name = "Circle");
+    Circle(double x = 0, double y = 0, double radius, const char* name = "Circle");
     void set_radius(double radius);  // Should return void
     double get_radius() const;
     virtual double area() const;
