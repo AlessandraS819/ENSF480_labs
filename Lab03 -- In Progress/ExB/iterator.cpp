@@ -1,6 +1,9 @@
-// iterator.cpp
-// ENSF 480 - Lab 3
-// Muhammed Umar Khan
+/* iterator.cpp
+* lab 3 Exercise B
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Sept 30, 2024
+*/
+
 
 
 #include <iostream>
