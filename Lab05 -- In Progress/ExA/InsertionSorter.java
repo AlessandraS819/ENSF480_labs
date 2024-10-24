@@ -1,3 +1,9 @@
+/*  
+ * Lab05 ExA
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Oct 28, 2024
+ */
+
 import java.util.ArrayList;
 
 public class InsertionSorter<E extends Number & Comparable<E>> implements Sorter<E> {
