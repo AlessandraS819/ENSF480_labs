@@ -1,5 +1,4 @@
-/* ENSF 480 - Lab 5 - Exercise A and B
- */
+/* ENSF 480 - Lab 5 - Exercise A and B*/
 
 import java.util.Random;
 public class DemoStrategyPattern {
