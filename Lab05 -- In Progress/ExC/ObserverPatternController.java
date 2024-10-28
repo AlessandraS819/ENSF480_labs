@@ -1,3 +1,8 @@
+/*  
+ * Lab05 ExC
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Oct 28, 2024
+ */
 
 public class ObserverPatternController {
  	public static void main(String []s) {
