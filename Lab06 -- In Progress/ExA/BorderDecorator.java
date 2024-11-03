@@ -21,7 +21,7 @@ public class BorderDecorator extends Decorator {
          * new float[]{5}: Defines the dash pattern. This array specifies alternating lengths of dashes and gaps. 5 means a dash followed by a gap, both of length 5.
          * Last 0: Sets the phase (starting point) of the dash pattern to 0, so it starts with a dash.
          */
-        g2d.setStroke(new BasicStroke(1, BasicStroke.CAP_BUTT, BasicStroke.JOIN_BEVEL, 0, new float[]{5}, 0)); // makes a dashed border
+        g2d.setStroke(new BasicStroke(3.0f, BasicStroke.CAP_BUTT, BasicStroke.CAP_ROUND, 1, new float[]{10, 5}, 0)); // makes a dashed border
         g2d.drawRect(getX(),getY(), getWidth(), getHeight());
 
     }
