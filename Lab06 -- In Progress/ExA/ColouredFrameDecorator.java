@@ -3,13 +3,15 @@ import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 
-public class ColouredFrameDecorator extends Decorator{
-    private int thickness;
+public class ColouredFrameDecorator extends Decorator {
+    private final int thickness;
 
-    public ColouredFrameDecorator(Component cmp, int x, int y, int width, int height, int thickness){
-        super(cmp, x,y, width, height);
+    // Ensure the constructor matches the signature required
+    public ColouredFrameDecorator(Component cmp, int x, int y, int width, int height, int thickness) {
+        super(cmp, x, y, width, height);
         this.thickness = thickness;
     }
+
    
     @Override
     public void draw(Graphics g){

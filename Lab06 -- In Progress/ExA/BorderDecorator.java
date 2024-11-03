@@ -2,13 +2,12 @@ import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
+
 public class BorderDecorator extends Decorator {
-
-    public BorderDecorator(Component cmp, int x , int y, int width, int height){
+    // Ensure the constructor matches the signature required
+    public BorderDecorator(Component cmp, int x, int y, int width, int height) {
         super(cmp, x, y, width, height);
-
     }
-    
     @Override
     public void draw(Graphics g){
         super.draw(g);
