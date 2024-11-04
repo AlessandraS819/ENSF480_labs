@@ -1,3 +1,9 @@
+/*  
+ * Lab06 ExB
+ * BorderDecorator.java
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Nov 04, 2024
+ */
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;

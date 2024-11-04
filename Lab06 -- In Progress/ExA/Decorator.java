@@ -1,3 +1,9 @@
+/*  
+ * Lab06 ExA
+ * Decorator.java
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Nov 04, 2024
+ */
 import java.awt.Graphics;
 
 public abstract class Decorator implements Component{

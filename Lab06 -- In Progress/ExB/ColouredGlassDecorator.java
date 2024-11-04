@@ -1,3 +1,9 @@
+/*  
+ * Lab06 ExB
+ * ColouredGlassDecorator.java
+ * Completed by: Alessandra Schiavi and Muhammed Umar Khan
+ * Submission Date: Nov 04, 2024
+ */
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
